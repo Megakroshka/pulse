@@ -1,0 +1,251 @@
+@media (max-width: 1200px){
+	.button_main {
+		width: 250px;
+	}
+
+}
+
+
+@media (max-width: 992px){
+	.header {
+		display: flex;
+		justify-content: space-around;
+	}
+	.promo {
+		&__header {
+			font-size: 37px;
+		}
+		&__subheader {
+			font-size: 20px;
+		}
+	}
+	.title {
+		font-size: 27px;
+	}
+	.advantages {
+		&__wrapper {
+			margin-top: 50px;
+		}
+		&__descr {
+			font-size: 12px;
+		}
+	}
+    /* .carousel {
+        &__inner {
+            width: 600px;
+            margin: 0 auto;
+        }
+        img {
+            width: 50%;
+        }
+    } */	
+    .carousel {
+        &__inner {
+            width: 650px;
+        }
+    }
+    .slick-slide{
+        img {
+            width: 100%;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .catalog-item {
+        width: 280px;
+        &__img {
+            width: auto;
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+	.promo {
+        padding-right: 30px;
+		&__header {
+			font-size: 34px;
+		}
+		&__subheader {
+			font-size: 17px;
+		}
+	}
+	.advantages {
+		padding: 40px 30px;
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__item {
+			max-width: 215px;
+		}
+	}
+	.title {
+		font-size: 25px;
+	}
+    .consultation {
+        min-height: 600px;
+        padding: 60px 0 40px 50px;
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 700px;
+        }
+    }
+    .catalog {
+        padding: 0 30px 50px 30px;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__content {
+            margin-top: 40px;
+        }
+    }
+    .catalog-item {
+        width: 310px;
+    }
+    .feed {
+        padding: 0 30px 49px 40px;
+        &__text {
+            margin-left: 40px;
+            padding-right: 5px;
+        }
+        &__item {
+            margin-top: 47px;
+        }
+        &__descr {
+            line-height: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 578px){
+	.promo {
+		min-height: 650px;
+    	padding: 21px 0 93px 0;
+		background: url(../img/main.jpg) center center/cover no-repeat;
+		background-attachment: fixed;
+		&__header {
+			font-size: 25px;
+		}
+		&__subheader {
+			font-size: 14px;
+		}
+        &__wrapper {
+            align-items: center;
+        }
+	}
+	.header {
+		flex-wrap: wrap;
+		&__logo {
+			img {
+				width: 80%;
+			}
+		}
+		&__contacts {
+			margin-top: 30px;
+			
+		}
+	}
+    .consultation {
+        min-height: 600px;
+        padding: 40px 0 0 30px;
+        &__descr {
+            font-size: 17px;
+        }
+    }
+    .title_left {
+        line-height: 40px;
+    }
+    .title {
+		font-size: 20px;
+	}
+    .button_submit {
+        width: 84%;
+    }
+    .feed-form{
+        input {
+            width: 250px;
+        }
+    }
+    .carousel {
+        padding: 60px 0;
+    }
+    .slick-slide {
+        img {
+            width: 90%;
+            margin: 0 15px;
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__content {
+            justify-content: space-around;
+            padding: 0 10px;
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 140px;
+            font-size: 14px;
+        }
+    }
+    .catalog-item {
+        width: 260px;
+        padding: 10px 15px;
+        min-height: 400px;
+        &__img {
+            height: 150px;
+        }
+        &__wrapper {
+            height: 300px;
+        }
+        &__old-price {
+            font-size: 11px;
+        }
+        &__price {
+            font-size: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        &__link {
+            margin-top: 20px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+        hr {
+            margin-top: 0;
+        }
+    }
+    .feed {
+        &__item {
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        &__text {
+            margin-left: 30px;
+            padding-right: 20px;
+            span {
+                margin-top: 50px;
+            }
+        }
+        &__descr {
+            line-height: 20px;
+            font-size: 14px;
+            margin-top: 7px;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+}
